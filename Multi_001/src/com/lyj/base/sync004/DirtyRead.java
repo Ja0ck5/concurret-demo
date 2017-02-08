@@ -28,7 +28,7 @@ public class DirtyRead {
 	
 	public static void main(String[] args) throws Exception{
 /*		getValue方法得到：username = hehe , password = 123
-				setValue最终结果：username = hehe , password = 456*/
+		setValue最终结果：username = hehe , password = 456*/
 		final DirtyRead dr = new DirtyRead();
 		Thread t1 = new Thread(new Runnable() {
 			@Override
