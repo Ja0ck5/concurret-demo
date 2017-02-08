@@ -41,13 +41,13 @@ public class ModifyLock {
 		Thread t1 = new Thread(new Runnable() {
 			@Override
 			public void run() {
-				modifyLock.changeAttributte("张三", 20);
+				modifyLock.changeAttributte("haha", 20);
 			}
 		},"t1");
 		Thread t2 = new Thread(new Runnable() {
 			@Override
 			public void run() {
-				modifyLock.changeAttributte("李四", 21);
+				modifyLock.changeAttributte("hehe", 21);
 			}
 		},"t2");
 		
