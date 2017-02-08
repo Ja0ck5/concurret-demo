@@ -2,7 +2,6 @@ package com.lyj.base.sync006;
 
 /**
  * 使用synchronized代码块加锁,比较灵活
- * @author alienware
  *
  */
 public class ObjectLock {

@@ -1,8 +1,6 @@
 package com.lyj.base.sync006;
 /**
  * 同一对象属性的修改不会影响锁的情况
- * @author alienware
- *
  */
 public class ModifyLock {
 	
