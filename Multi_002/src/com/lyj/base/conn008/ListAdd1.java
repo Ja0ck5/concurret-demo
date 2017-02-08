@@ -9,7 +9,7 @@ public class ListAdd1 {
 	private volatile static List list = new ArrayList();	
 	
 	public void add(){
-		list.add("bjsxt");
+		list.add("haha");
 	}
 	public int size(){
 		return list.size();
@@ -37,6 +37,7 @@ public class ListAdd1 {
 		Thread t2 = new Thread(new Runnable() {
 			@Override
 			public void run() {
+				//一直轮询去判断，改善的方式是使用线程间的通信。例如： list1.size() == 5 了，则  t1  notify t2 
 				while(true){
 					if(list1.size() == 5){
 						System.out.println("当前线程收到通知：" + Thread.currentThread().getName() + " list size = 5 线程停止..");
@@ -45,7 +46,7 @@ public class ListAdd1 {
 				}
 			}
 		}, "t2");		
-		
+
 		t1.start();
 		t2.start();
 	}
