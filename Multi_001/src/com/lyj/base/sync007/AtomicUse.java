@@ -41,11 +41,6 @@ public class AtomicUse {
 		for(Thread t : ts){
 			t.start();
 		}
-
-
-	
-		
-
 		
 	}
 }
