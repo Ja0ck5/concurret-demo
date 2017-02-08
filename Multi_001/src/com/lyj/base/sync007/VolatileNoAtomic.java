@@ -4,8 +4,6 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * volatile关键字不具备synchronized关键字的原子性（同步）
- * @author alienware
- *
  */
 public class VolatileNoAtomic extends Thread{
 	//private static volatile int count;
@@ -23,7 +21,6 @@ public class VolatileNoAtomic extends Thread{
 	}
 	
 	public static void main(String[] args) {
-		
 		VolatileNoAtomic[] arr = new VolatileNoAtomic[100];
 		for (int i = 0; i < 10; i++) {
 			arr[i] = new VolatileNoAtomic();
@@ -33,8 +30,5 @@ public class VolatileNoAtomic extends Thread{
 			arr[i].start();
 		}
 	}
-	
-	
-	
 	
 }
