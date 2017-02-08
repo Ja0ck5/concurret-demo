@@ -44,7 +44,7 @@ public class ListAdd2 {
 								lock.notify();//通知，是不释放锁的
 							}
 						}						
-					}
+					}//临界区的代码执行完才释放锁
 				} catch (InterruptedException e) {
 					e.printStackTrace();
 				}
