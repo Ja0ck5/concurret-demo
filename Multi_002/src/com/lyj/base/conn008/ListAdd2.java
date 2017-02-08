@@ -10,7 +10,7 @@ import java.util.concurrent.LinkedBlockingQueue;
  * wait notfiy 方法，wait释放锁，notfiy不释放锁
  */
 public class ListAdd2 {
-	private volatile static List list = new ArrayList();	
+	private volatile static List<String> list = new ArrayList<String>();	
 	
 	public void add(){
 		list.add("haha");
