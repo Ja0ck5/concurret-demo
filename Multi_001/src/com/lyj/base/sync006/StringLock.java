@@ -1,14 +1,12 @@
 package com.lyj.base.sync006;
 /**
  * synchronized代码块对字符串的锁，注意String常量池的缓存功能
- * @author alienware
- *
  */
 public class StringLock {
 
 	public void method() {
-		//new String("字符串常量")
-		synchronized ("字符串常量") {
+		//new String("")
+		synchronized ("") {
 			try {
 				while(true){
 					System.out.println("当前线程 : "  + Thread.currentThread().getName() + "开始");
