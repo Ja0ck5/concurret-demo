@@ -1,8 +1,6 @@
 package com.lyj.base.sync005;
 /**
  * synchronized异常
- * @author alienware
- *
  */
 public class SyncException {
 
