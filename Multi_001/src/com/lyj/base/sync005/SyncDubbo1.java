@@ -18,12 +18,11 @@ public class SyncDubbo1 {
 	
 	public static void main(String[] args) {
 		final SyncDubbo1 sd = new SyncDubbo1();
-		Thread t1 = new Thread(new Runnable() {
+		new Thread(new Runnable() {
 			@Override
 			public void run() {
 				sd.method1();
 			}
-		});
-		t1.start();
+		}).start();
 	}
 }
