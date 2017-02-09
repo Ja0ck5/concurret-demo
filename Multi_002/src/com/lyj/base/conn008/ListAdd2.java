@@ -75,5 +75,4 @@ public class ListAdd2 {
 		t1.start();
 		
 	}
-	
 }

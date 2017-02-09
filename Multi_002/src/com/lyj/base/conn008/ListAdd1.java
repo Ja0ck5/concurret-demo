@@ -51,5 +51,4 @@ public class ListAdd1 {
 		t2.start();
 	}
 	
-	
 }
