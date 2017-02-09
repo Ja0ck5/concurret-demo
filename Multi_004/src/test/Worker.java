@@ -32,17 +32,4 @@ public class Worker implements Runnable {
 		return null;
 	}
 
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
 }
