@@ -22,7 +22,6 @@ public class SyncException {
 	}
 	
 	public static void main(String[] args) {
-		
 		final SyncException se = new SyncException();
 		new Thread(new Runnable() {
 			@Override
@@ -31,6 +30,5 @@ public class SyncException {
 			}
 		},"t1").start();
 	}
-	
 	
 }

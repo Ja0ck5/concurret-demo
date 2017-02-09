@@ -62,6 +62,5 @@ public class DeadLock implements Runnable{
 		t2.start();
 	}
 	
-
 	
 }

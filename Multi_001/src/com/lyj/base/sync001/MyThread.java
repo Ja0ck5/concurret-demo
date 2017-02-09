@@ -37,15 +37,3 @@ public class MyThread extends Thread{
 		t5.start();
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-

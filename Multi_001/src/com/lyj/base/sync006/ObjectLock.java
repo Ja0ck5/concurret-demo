@@ -56,6 +56,7 @@ public class ObjectLock {
 				objLock.method2();
 			}
 		});
+		
 		Thread t3 = new Thread(new Runnable() {
 			@Override
 			public void run() {

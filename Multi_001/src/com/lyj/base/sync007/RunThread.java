@@ -30,5 +30,4 @@ public class RunThread extends Thread{
 		System.out.println("isRunning的值已经被设置了false");
 	}
 	
-	
 }

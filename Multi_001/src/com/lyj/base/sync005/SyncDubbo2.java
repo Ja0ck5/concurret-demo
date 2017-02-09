@@ -42,5 +42,4 @@ public class SyncDubbo2 {
 		}).start();
 	}
 	
-	
 }

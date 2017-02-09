@@ -56,8 +56,4 @@ public class MultiThread {
 		t2.start();
 		
 	}
-	
-	
-	
-	
 }

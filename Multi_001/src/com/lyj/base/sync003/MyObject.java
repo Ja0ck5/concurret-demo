@@ -45,7 +45,5 @@ public class MyObject {
 		
 		t1.start();
 		t2.start();
-		
 	}
-	
 }

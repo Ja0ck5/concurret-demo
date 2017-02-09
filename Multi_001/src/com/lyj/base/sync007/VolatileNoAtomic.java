@@ -33,5 +33,4 @@ public class VolatileNoAtomic extends Thread{
 			new VolatileNoAtomic().start();
 		}
 	}
-	
 }
