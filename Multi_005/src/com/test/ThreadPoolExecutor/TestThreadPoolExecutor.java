@@ -49,8 +49,5 @@ public class TestThreadPoolExecutor {
 		}
 		System.out.println(pool.getQueue().size());
 		
-							
-		
-		
 	}
 }
