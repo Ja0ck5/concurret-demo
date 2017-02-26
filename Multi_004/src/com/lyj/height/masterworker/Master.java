@@ -22,9 +22,8 @@ public class Master {
 		//worker 需要拥有  承装每个 Worker 的并发执行后的结果集 的引用
 		worker.setResultMap(this.resultMap);
 		
-		for (int i = 0; i < workerCount; i++) {
+		for (int i = 0; i < workerCount; i++)
 			workers.put("worker-"+i, new Thread(worker));
-		}
 	}
 	
 	// 提交
@@ -34,10 +33,9 @@ public class Master {
 	
 	// 执行，启动应用程序，驱动所有 worker 工作
 	public void execute(){
-		for (Map.Entry<String, Thread> me : workers.entrySet()) {
+		for (Map.Entry<String, Thread> me : workers.entrySet())
 			//启动线程
 			me.getValue().start();
-		}
 	}
 
 	//判断是否  execute  完毕
